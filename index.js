@@ -35,7 +35,7 @@
     <p class="text-xl italic mb-6">
       Der Serveradmin mit mehr Gigabytes auf den Rippen als im RAM 💾🍩
     </p>
-    <img src="https://media.tenor.com/fU2oJHRx2V8AAAAC/fat-cat.gif" alt="Fat Meme" class="mx-auto rounded-xl shadow-2xl mb-6 w-64 transform hover:scale-110 transition duration-500">
+    <img src="copyfarr.png" alt="Fat Meme" class="mx-auto rounded-xl shadow-2xl mb-6 w-64 transform hover:scale-110 transition duration-500">
     <p class="text-pink-400 text-lg font-bold mb-8 animate-bounce">
       #HasNoFitness #MemeLife #Copyfarr #SnackOverflow 🍕🖥️
     </p>
