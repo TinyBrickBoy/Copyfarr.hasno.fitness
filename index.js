@@ -4,34 +4,47 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Copyfarr.hasno.fitness</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
     body {
-      background: #0f0f0f;
-      color: #fff;
-      font-family: monospace;
+      font-family: 'Rubik Moonrocks', cursive;
+    }
+    .wiggle {
+      animation: wiggle 0.5s infinite;
+    }
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(-3deg); }
+      50% { transform: rotate(3deg); }
+    }
+    .rainbow {
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   </style>
 </head>
-<body class="flex items-center justify-center h-screen text-center px-4">
-  <div>
-    <h1 class="text-4xl md:text-6xl font-bold text-red-500 mb-4">
-      Copyfarr ist <span class="line-through">vergessen</span> fgett.
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white flex items-center justify-center min-h-screen text-center p-4 overflow-hidden">
+  <div class="animate-pulse max-w-xl">
+    <h1 class="text-6xl font-extrabold mb-6 rainbow">
+      🐷 Copyfarr.hasno.<span class="text-red-500">fitness</span>
     </h1>
-    <img src="https://media.tenor.com/_z9Ah-LvNoIAAAAC/shitpost.gif" alt="Meme" class="mx-auto rounded-lg shadow-lg w-64 mb-4" />
-    <p class="text-lg mb-6 max-w-md mx-auto">
-      Niemand weiß, woher er kam. Niemand weiß, wohin er ging.  
-      Aber alle wissen eines: <strong>Copyfarr has no fitness.</strong>
+    <p class="text-2xl mb-4">
+      🚨 Achtung: Diese Seite enthält mehr Kalorien als dein Frühstück.
     </p>
-    <div class="flex justify-center gap-4">
-      <button onclick="alert('Copyfarr war mal cool')" class="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700">
-        Wer ist Copyfarr?
-      </button>
-      <button onclick="alert('fgett.')" class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">
-        Warum fgett?
-      </button>
-    </div>
-    <p class="text-sm text-gray-400 mt-10">copyfarr.hasno.fitness – offizielles Archiv</p>
+    <p class="text-xl italic mb-6">
+      Der Serveradmin mit mehr Gigabytes auf den Rippen als im RAM 💾🍩
+    </p>
+    <img src="https://media.tenor.com/fU2oJHRx2V8AAAAC/fat-cat.gif" alt="Fat Meme" class="mx-auto rounded-xl shadow-2xl mb-6 w-64 transform hover:scale-110 transition duration-500">
+    <p class="text-pink-400 text-lg font-bold mb-8 animate-bounce">
+      #HasNoFitness #MemeLife #Copyfarr #SnackOverflow 🍕🖥️
+    </p>
+    <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'" class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full shadow-lg text-xl transition-all duration-300">
+      💪 Jetzt Fitness kaufen (nicht wirklich)
+    </button>
+  </div>
+  <div class="absolute bottom-4 right-4 text-xs text-gray-500 animate-pulse">
+    Made with ❤️ und 🍟 by Copyfarr Memeteam™
   </div>
 </body>
 </html>
